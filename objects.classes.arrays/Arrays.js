@@ -1,0 +1,11 @@
+let secretMessage = ["Learning", "isn't", "about", "what", "you", "get", "easily", "the", "first", "time,", "it's", "about", "what", "you", "can", "figure", "out.", "-2015,", "Chris", "Pine,", "Learn", "JavaScript"];
+secretMessage.pop();
+secretMessage.push('to','program');
+secretMessage[6] = 'right';
+secretMessage.shift();
+secretMessage.unshift('Programming');
+let pos = 5, n=5;
+let removedItems = secretMessage.splice(pos, n,'know');
+secretMessage.join();
+console.log();
+console.log(secretMessage.join());
